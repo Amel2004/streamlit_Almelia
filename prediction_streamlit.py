@@ -9,6 +9,7 @@ Original file is located at
 
 import pandas as pd
 import pickle
+import xgboost as xgb
 
 # Function to load the model (assuming it's saved as XGBoost.pkl)
 def load_model():
