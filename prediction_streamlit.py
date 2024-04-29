@@ -9,6 +9,8 @@ Original file is located at
 
 import pandas as pd
 import pickle
+pip install xgboost
+from xgboost import XGBClassifier
 
 # Function to load the model (assuming it's saved as XGBoost.pkl)
 def load_model():
